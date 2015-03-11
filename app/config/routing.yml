@@ -1,0 +1,7 @@
+wcs_default:
+    resource: "@WCSDefaultBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: @AppBundle/Controller/
+    type:     annotation

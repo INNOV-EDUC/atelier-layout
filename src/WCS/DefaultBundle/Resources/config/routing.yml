@@ -1,0 +1,9 @@
+wcs_default_theme:
+    resource: "@WCSDefaultBundle/Resources/config/routing/theme.yml"
+    prefix:   /theme
+
+wcs_default_homepage:
+    path:     /
+    defaults: { _controller: WCSDefaultBundle:Default:index }
+
+
